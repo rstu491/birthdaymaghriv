@@ -83,10 +83,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Tombol Prev & Next Galeri
   const page1 = document.getElementById("gPage1");
   const page2 = document.getElementById("gPage2");
+  const page3 = document.getElementById("gPage3");
+  const page4 = document.getElementById("gPage4");
   const prevBtn = document.getElementById("prevGallery");
   const nextBtnGallery = document.getElementById("nextGallery");
 
-  if (nextBtnGallery && prevBtn && page1 && page2) {
+  if (nextBtnGallery && prevBtn && page1 && page2 && page3 && page4) {
     nextBtnGallery.addEventListener("click", function () {
       page1.classList.remove("page-active");
       page2.classList.add("page-active");
