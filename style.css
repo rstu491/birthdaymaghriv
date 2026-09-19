@@ -121,8 +121,18 @@ body.page-2 {
 .nav-logo {
   font-weight: 600;
   font-size: 1.1rem;
-  /* color: #ff4b2b; */
   color: #397359;
+  text-decoration: none; /* Menghilangkan garis bawah link */
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* Efek saat logo di-hover / disentuh */
+.nav-logo:hover {
+  opacity: 0.8;
+  transform: scale(1.03);
 }
 
 .nav-links {
